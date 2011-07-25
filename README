@@ -2,4 +2,6 @@ Losely based on the JSR-154 interfaces which is used in Java for handling HTTP l
 
 The HTTP Server provides core HTTP classes to PHP, such as the Request and Response classes, as well as providing a structure for calling your application code (as objects). The HTTP Server also provides Filters and Filter Chains for you to implement reusable behaviour, such as routing requests, handling security or transforming the response.
 
+It also provides a way of handling URL's, allowing you to write clean human readable URL's, and mapping them to different applications, or routing the requests entirely using a set of routing tools.
+
 The HTTP Server aims to be a light-weight handler for the request/response, and invoke different parts of your application. This allows you to chose the correct approach to building your application without forcing a full-MVC stacked response like many other frameworks. 
