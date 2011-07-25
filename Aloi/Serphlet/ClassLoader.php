@@ -148,7 +148,7 @@ class Aloi_Serphlet_ClassLoader {
 		$className = self :: getClassName($name);
 
 		// Have we already loaded this class?
-		if (class_exists($className, false)) {
+		if (class_exists($className, true)) {
 			return $className;
 		} else {
 			// Try to load the class
